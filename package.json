@@ -5,7 +5,7 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "trigger-bug": "git clean -X && rm -rf my-library && pnpm install && ls -lah my-library/node_modules"
+    "trigger-bug": "git clean -Xf && rm -rf my-library && pnpm install && ls -lah my-library/node_modules"
   },
   "devDependencies": {
     "tsup": "8.0.2"
